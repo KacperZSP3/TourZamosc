@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "TourZamosc", "TourZamosc.exe", "{B89DE8BA-E8DD-4D51-8FC0-499681DA9E3C}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\Kacper\source\repos\TourZamosc\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX\TourZamosc.exe
+		RemoteMachine = DESKTOP-JT21JJG
+		StartingDirectory = C:\Users\Kacper\source\repos\TourZamosc\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B89DE8BA-E8DD-4D51-8FC0-499681DA9E3C}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2576888A-ECDA-41F8-A4CF-B041568926AF}
+	EndGlobalSection
+EndGlobal

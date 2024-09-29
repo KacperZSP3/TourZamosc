@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TourZamosc.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Przejażdżka po Plantach" HorizontalOptions="Center" FontAttributes="Bold" FontSize="40"
+                />
+
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label 
+                x:Name="LikeLable"
+                Text="Polubienia: "
+                HorizontalOptions="End"
+                Padding="10,0,80,0"
+                
+                />
+
+            <Label
+                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis nulla eu felis fringilla vulputate. Nullam porta eleifend lacinia. Donec at iaculis tellus."
+                LineBreakMode="WordWrap"
+                HorizontalOptions="Center"
+                />
+
+
+            <Button
+                x:Name="LikeButton"
+                Text="Lubie to" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center"/>
+
+            <Button 
+                x:Name="DislikeButton"
+                Text="Nie lubie tego"
+                Clicked="OnCounterDislikeClicked"
+                HorizontalOptions="Center"
+                
+                />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
